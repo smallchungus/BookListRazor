@@ -6,9 +6,9 @@ namespace razorbooklist.Models
 	public class Category
 	{
 		[Key]
-		public object MyProperty { get; set; }
+		public int ID { get; set; }
 		[Required]
-		public String  Name { get; set; }
+		public string Name { get; set; }
 
 		public int DisplayOrder { get; set; }
 
